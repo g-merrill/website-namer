@@ -2,12 +2,18 @@ body {
 	text-align: center;
 	margin: 0;
 }
-h1 {
+div {
 	margin: 50px 0;
-	font-size: 48px;
-    line-height: 56px;
+	height: 120px;
+	padding: 0;
+}
+h1 {
+	margin: 0;
+	padding-top: 30px;
+	font-size: 60px;
     font-weight: 700;
-    visibility: hidden;
+	font-family: 'Ubuntu', sans-serif;
+
 }
 form {
 	margin-top: 200px;
@@ -17,6 +23,9 @@ input {
 	width: 200px;
 	line-height: 40px;
 	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	border: 3px solid black;
+	text-align: center;
 }
 button {
 	margin: 30px 0;
@@ -25,9 +34,8 @@ button {
 	width: 200px;
 	line-height: 40px;
 	font-size: 30px;
-	font-weight: bold;  
-}
-.border {
-	border: 2px solid #000000;
-	font-family: Circular,Helvetica,Arial,sans-serif;
+	font-weight: 900;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	border-radius: 20px;
 }
